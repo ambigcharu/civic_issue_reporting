@@ -24,7 +24,7 @@ export default function Landing() {
     </div></section>
     <div className="marquee"><div className="track">{[...CATEGORIES, ...CATEGORIES, ...CATEGORIES].map((c, i) => <span key={i} className="chip">{c}</span>)}</div></div>
     <section id="features" className="section"><div className="container center">
-      <span className="pill">Features</span><h2>Everything You Need for Smart Civic Governance</h2>
+      <span className="pill"> Features</span><h2>Everything You Need for Smart Civic Governance</h2>
       <div className="grid g3">{features.map(([i, t, d]) => <div className="card" key={t}><div className="icon">{i}</div><h3>{t}</h3><p>{d}</p></div>)}</div>
     </div></section>
     <section id="how" className="section cream"><div className="container center">
